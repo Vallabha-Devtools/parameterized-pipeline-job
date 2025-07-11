@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'echo Print Maven Version'
         sh 'mvn -version'
-        sh "echo Sleep-Time - ${params.SLEEP_TIME}, PORT - ${params.APP_PORT}, BRANCH - ${params.BRANCH_NAME}
+        sh "echo Sleep-Time - ${params.SLEEP_TIME}, PORT - ${params.APP_PORT}, BRANCH - ${params.BRANCH_NAME}"
       }
     }
 
